@@ -5,8 +5,8 @@ const headerMenu = document.querySelector('.header__menu')
 //Animating
 gsap.fromTo(
   '.right',
-  { x: '2000%', opacity: 0 },
-  { x: '0%', delay: 0.1, duration: 0.75, opacity: 0.8, ease: 'Power3.easeOut' }
+  { y: '-2000%', opacity: 0 },
+  { y: '0%', delay: 0.1, duration: 0.75, opacity: 0.8, ease: 'Power3.easeOut' }
 )
 
 gsap.fromTo(
